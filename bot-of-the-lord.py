@@ -34,4 +34,4 @@ async def on_message(message):
         await client.send_message(message.channel, message.author.mention + " is the biggest fag")
         
 
-client.run("NDE3MTY0MTY1MDE5NDY3Nzc2.DXPUbg.E3dbdvyTIySwVFCvk2Silxk4Spw")
+client.run(process.env.BOT_TOKEN)
