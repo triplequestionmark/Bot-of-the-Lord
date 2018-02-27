@@ -31,7 +31,7 @@ async def on_message(message):
     if message.content.lower() == "amen" or message.content.lower() == "amen.": 
         await client.send_message(message.channel, "Amen :pray:")
         
-    if " fag" in message.content.lower() and message.author.bot == False:
+    if "fag" in message.content.lower() and message.author.bot == False:
         await client.send_message(message.channel, message.author.mention + " is the biggest fag")
         
 BOT_TOKEN = "NDE3MTY0MTY1MDE5NDY3Nzc2.DXZy9w._jRIhLdr-ut0BaT2FfmKEN6qZlY"
