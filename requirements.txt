@@ -1,4 +1,3 @@
 discord
 discord[voice]
 asyncio
-os
