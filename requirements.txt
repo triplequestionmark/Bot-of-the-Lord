@@ -1,3 +1,3 @@
-pip install discord
-pip install discord[voice]
-pip install asyncio
+discord
+discord[voice]
+asyncio
