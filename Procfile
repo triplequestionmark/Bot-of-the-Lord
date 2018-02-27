@@ -1,1 +1,1 @@
-worker: python Bot-of-the-Lord.py
+worker: python bot-of-the-lord.py
